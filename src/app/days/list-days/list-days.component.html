@@ -1,0 +1,8 @@
+<h1>Listado de Dias</h1>
+
+<ul>
+<li *ngFor="let day of days; let i=index">{{i+1}} - {{day}}</li>
+</ul>
+
+<button (click)="deleteDay()">Borrar Mes</button>
+<p> {{delete}} </p>
